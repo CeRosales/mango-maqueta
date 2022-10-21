@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav__div {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.nav__text {
+    padding-left: 2.5em;
+}
+
+
+.nav__logo {
+    max-width: 80px;
+    padding-left: 3em;
+}
