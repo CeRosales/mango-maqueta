@@ -54,30 +54,120 @@
     width: 10em;
     margin-bottom: 5em;
     padding: 1em;
+    border: none;
 }
 
 .section2 {
     background-color: rgb(243, 187, 189);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4em;
+   
+}
+
+.section2__img {
+    width: 40em;
+}
+
+.section2__text {
+    color: rgb(212, 90, 149);
+    padding-top: 1em;
+}
+
+.section2__button {
+    width: 10em;
+    margin-bottom: 5em;
+    padding: 1em;
+    border: none;
+    margin-top: 2em;
+
 }
 
 .section3 {
     display: flex;
     flex-direction: row;
+    min-width: 100vw;
 }
 
-.section3__img {
-    max-width: 33%;
+.section3__A {
+    background-image: url(../images/she_landing_block_1710.jpg);
+    width: 33%;
+    background-size: cover;
 }
+
+.section3__B {
+    background-image: url(../images/she_landing_lesther_1710.jpg);
+    width: 33%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.section3__C {
+    background-image: url(../images/she_landing_keytrends_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+.section3__1--div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30em;
+
+
+}
+
+
+
 
 .section4 {
     display: flex;
     flex-direction: row;
 }
 
+.section4__A{
+    background-image: url(../images/she_landing_fiesta_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+.section4__B {
+    background-image: url(../images/she_landing_exonline_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+.section4__C {
+    background-image: url(../images/she_landing_oficina_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
 .section5 {
     display: flex;
     flex-direction: row;
 }
+
+.section5__A {
+    background-image: url(../images/she_landing_vestidos_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+.section5__B {
+    background-image: url(../images/she_landing_abrigos_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+.section5__C {
+    background-image: url(../images/she_landing_calzados_1710.jpg);
+    width: 33%;
+    background-size: cover;
+}
+
+
+
 
 .section8 {
     display: flex;
