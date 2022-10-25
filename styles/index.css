@@ -259,20 +259,49 @@
 }
 
 
-.section6 {
+.section5 {
     
 }
 
-.section6__A {
+.section5__A {
     background-image: url(../images/liveshopping_landing_pre_0310_v2.jpg);
+    width: 100vw;
+    background-size: cover ;
 
 }
 
-.section6__A--1 {
+.section5__A--1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.section5__text {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+}
+
+.section5__h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.section5__button {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    background-color: white;
+    border: none;
+}
+
+.section5__button--text {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-weight: bold;
+
+}
+
 
 .section7__div {
     display: flex;
