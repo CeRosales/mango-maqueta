@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     overflow-x: hidden;
+    
 }
 
 .banner {
@@ -52,7 +53,7 @@
 
 .nav__logo {
     max-width: 9em;
-    padding-left: 22em;
+    padding-left: 21.25em;
 }
 
 .nav__iconContainer {
@@ -302,6 +303,11 @@
 
 }
 
+.section7__mangogirls {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
 
 .section7__div {
     display: flex;
@@ -309,6 +315,8 @@
 }
 
 .section8 {
+
+    
     
     
 }
@@ -316,6 +324,7 @@
 .section8__div {
     display: flex;
     flex-direction: row;
+    
 
 }
 
@@ -323,43 +332,161 @@
     width: 25%;
 }
 
-.section8__button {
+.section8__img--padding {
+    padding-left: 3em;
+}
+
+.section8__img--padding2 {
+    padding-right: 3em;
+}
+
+.section8__img--left {
+    padding-left: 0.5em;
+
+
+}
+
+
+.section8__div--button {
     display: flex;
     justify-content: center;
 }
 
+.section8__button {
+    background-color: black;
+    color: white;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.section8__button--text {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-weight: bold;
+}
+
+.section9 {
+    
+}
+
+
 .section9__text {
     display: flex;
     justify-content: center;
+    padding-bottom: 1em;
+}
+
+.section9__h2 {
+    font-size: 2em;
 }
 
 .section9__div--images {
     display: flex;
     flex-direction: row;
+    
+    width: 100vw;
+    margin: 0;
 }
 
 .section9__A {
     background-image: url(../images/he_landing_otraslineas_0109_v3.jpg);
-    width: 25%;
-    height: ;
-
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    
 }
 
 .section9__B {
     background-image: url(../images/kids_landing_otraslineas_0109_v3.jpg);
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    background-size: cover;
+    margin-left: 0.15em;
 }
 
 .section9__C {
     background-image: url(../images/teen_landing_otraslineas_0109_v3.jpg);
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    background-size: cover;
+    margin-left: 0.15em;
 }
 
 .section9__D {
     background-image: url(../images/casa_landing_otraslineas_0109_v3.jpg);
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-position: cover;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    background-size: cover;
+    margin-left: 0.15em;
+}
+
+.section9__button {
+    margin-top: 32em;
+    margin-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: none;
+    background-color: white;
 }
 
 .section10__div {
     display: flex;
+    padding-left: 2em;
+    padding-right: 12em;
+}
+
+.section10__text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.section10__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section10__tittle--li {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__icon {
+    width: 1.25em;
+}
+
+.footer__footer {
+    display: flex;
+}
+
+li {
+    font-size: 0.9em;
 }
