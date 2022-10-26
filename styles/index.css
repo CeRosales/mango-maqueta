@@ -2,6 +2,7 @@
     font-family: sans-serif;
     overflow-x: hidden;
     
+    
 }
 
 .banner {
@@ -433,12 +434,18 @@
 .section9__button {
     margin-top: 32em;
     margin-bottom: 5em;
-    padding-left: 2em;
-    padding-right: 2em;
+   
     padding-top: 1em;
     padding-bottom: 1em;
     border: none;
     background-color: white;
+}
+
+.section9__button--text {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .section10__div {
@@ -458,9 +465,15 @@
     justify-content: space-between;
 }
 
+.section10__li {
+    font-size: 0.8em;
+    padding-top: 0.7em;
+}
+
 .section10__tittle--li {
     font-size: 0.8em;
     font-weight: bold;
+    
 }
 
 .footer{
@@ -469,10 +482,79 @@
     align-items: center;
 }
 
+.footer__club {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__input {
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+    border-width: 0.05em;
+    width: 23em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.footer__button {
+    margin-top: 2em;
+    padding-left: 9em;
+    padding-right: 9em;
+    background-color: black;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    border: none;
+}
+
+.footer__España {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5em;
+}
+
+.footer__text--españa {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.footer__text--castellano {
+    font-size: 0.8em;
+    
+}
+
+.footer__globo {
+    width: 1.25em;
+    height: 1.25em;
+    padding-top: 0.5em;
+    padding-right: 0.75em;
+}
+
+.footer__flecha {
+    width: 0.75em;
+    height: 1em;
+    padding-top: 0.8em;
+    padding-left: 0.75em;
+}
+
 .footer__list {
     display: flex;
     flex-direction: row;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 30em;
+    margin-left: 30em;
+    
+    
 }
+
+.footer__list--top {
+    padding-top: 3em;
+}
+
 
 .footer__icons {
     display: flex;
@@ -480,13 +562,40 @@
 }
 
 .footer__icon {
-    width: 1.25em;
+    width: 1em;
+    padding-top: 1em;
+    padding-left: 1.5em;
+}
+
+.footer__icon--left {
+    width: 1em;
+    padding-top: 1em;
+    padding-left: 0;
 }
 
 .footer__footer {
     display: flex;
+    color: gray;
+    font-size: 0.6em;
+    padding-top: 4em;
+    
+}
+
+.footer__footer--li {
+    padding-left: 0.5em;
+}
+
+.footer__footer--left {
+
+}
+
+.list {
+    font-size: 0.9em;
+    padding-left: 1.5em;
+    margin-top: 0.25em;
 }
 
 li {
-    font-size: 0.9em;
+    list-style: none;
 }
+
