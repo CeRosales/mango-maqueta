@@ -5,6 +5,7 @@
     
 }
 
+
 .banner {
     display: flex;
     justify-content: center;
@@ -114,6 +115,7 @@
     margin-top: 5em;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 .section1__container--urban  {
@@ -435,16 +437,16 @@
     margin-top: 32em;
     margin-bottom: 5em;
    
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
     border: none;
     background-color: white;
 }
 
 .section9__button--text {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-left: 2em;
+    
+    padding-left: 1.5em;
     padding-right: 2em;
 }
 
@@ -598,4 +600,8 @@
 li {
     list-style: none;
 }
+
+
+
+
 
